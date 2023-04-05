@@ -9,7 +9,7 @@ Take home assignment for sojern problems 1 (semantic version) and 3 (/ping and /
 * Starts a webserver on `localhost:8080`
 
 Once the web server is running, then use these commands to test it:
-* `$ curl -v http://localhost:8080/ping`
-* `$ curl -v http://localhost:8080/img`
+* `$ curl -v http://localhost:8080/ping` (does not log)
+* `$ curl -v http://localhost:8080/img` (emits a log line)
 * `$ touch /tmp/ok` to create a the file that impacts `/ping`
 * `$ rm /tmp/ok` to remove...
